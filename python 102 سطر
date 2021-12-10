@@ -21,8 +21,8 @@ from datetime import date
 
 
 def data():
-    while True:
-        try:
+    while True: #######
+        try:############# عشان اكسباكت ايرور تشتغل
             a = list()
             b = list()
             hm = int(input("How many people?"))
@@ -51,7 +51,7 @@ def data():
                 print('There is no oldest or youngest person')
             print("Total People:", tp)
         except ValueError:
-            print('Invalid date')
+            print(nametest,'has invalid date')
         wqwqwq = input(
             'Press any key to try again, "n" to exit, "Sort" to print from oldest to youngest, "Sunday" if want to '
             'check if someone was born on a sunday.')
